@@ -53,7 +53,7 @@ gem 'rake', '~> 10.1.1'
 # gem 'resque', require: 'resque/server'
 
 # gem "sprockets",       "4.0.0.beta2"
-gem "sprockets",       "~> 3.7.0"
+gem "sprockets",       "~> 3.7.1"
 gem 'aasm',            '~> 4.12.2'
 #gem 'sunspot_solr',   '~> 2.0.0'
 #gem 'sunspot_rails',  '~> 2.0.0'
@@ -83,7 +83,7 @@ group :development do
 end
 group :test, :development do
   gem 'byebug'
-  gem 'mysql2',   '~> 0.4.8'
+  gem 'mysql2',   '~> 0.4.3'
   gem 'capybara', '~> 2.7.1'
   gem 'launchy'
   gem 'database_cleaner', "~> 1.6.1"
@@ -95,7 +95,7 @@ group :test do
   gem 'mocha',              '~> 0.13.3', :require => false
   gem 'rails-controller-testing'
   gem 'rspec-rails-mocha'
-  gem 'rspec-rails',        '~> 3.5.1'
+  gem 'rspec-rails',        '~> 3.5.4'
   gem 'email_spec'
   gem "faker"
 
