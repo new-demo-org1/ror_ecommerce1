@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby "2.4.0"
 
 ## Bundle rails:
-gem 'rails', '~> 5.1.1'
+gem 'rails', '~> 5.1.5'
 
 gem 'uglifier',     '>= 1.3.0'
 # gem 'sass-rails',   '~> 6.0.0.beta1'
@@ -36,11 +36,11 @@ gem 'jbuilder'
 gem "friendly_id",     '~> 5.1.0'#, :git => "git@github.com:FriendlyId/friendly_id.git", :branch => 'rails4'
 gem "jquery-rails",    '~> 4.3.1'
 gem 'jquery-ui-rails', '~> 6.0.1'
-gem 'json',           '~> 2.2.0'
+gem 'json',           '~> 2.2.8'
 
 # gem "nifty-generators", :git => 'git://github.com/drhenner/nifty-generators.git'
-gem 'nokogiri',     '~> 1.6.7'
-gem 'paperclip',    '~> 5.0.0'
+gem 'nokogiri',     '~> 1.6.9'
+gem 'paperclip',    '~> 5.0.1'
 gem 'prawn',        '>= 0.12.0'
 
 gem "rails3-generators", "~> 1.0.0"
@@ -48,7 +48,7 @@ gem "rails3-generators", "~> 1.0.0"
 gem "config"
 gem 'rmagick',    '= 2.15.4', require: false
 
-gem 'rake', '~> 10.1.1'
+gem 'rake', '~> 10.1.9'
 
 # gem 'resque', require: 'resque/server'
 
